@@ -1,29 +1,29 @@
 import { Route, Switch } from "wouter";
 import { useEffect, useRef, useState, useCallback } from "react";
-import ScrollToTop from "./components/ScrollToTop";
-import PageWrapper from "./components/PageWrapper";
-import SmoothScroll from "./components/SmoothScroll";
-import { CurrencyProvider, useCurrency } from "./components/CurrencyContext";
+import ScrollToTop from "./components/ScrollToTop.tsx";
+import PageWrapper from "./components/PageWrapper.tsx";
+import SmoothScroll from "./components/SmoothScroll.tsx";
+import { CurrencyProvider, useCurrency } from "./components/CurrencyContext.tsx";
 
 // AED (Default) Imports
-import HomePage from "./imports/HomePage";
-import Pricing from "./imports/Pricing";
-import OurTech from "./imports/OurTech";
-import Demo from "./imports/Demo";
-import OurStory from "./imports/OurStory";
-import Contact from "./imports/Contact";
-import Privacy from "./imports/Privacy";
+import HomePage from "./imports/HomePage.tsx";
+import Pricing from "./imports/Pricing.tsx";
+import OurTech from "./imports/OurTech.tsx";
+import Demo from "./imports/Demo.tsx";
+import OurStory from "./imports/OurStory.tsx";
+import Contact from "./imports/Contact.tsx";
+import Privacy from "./imports/Privacy.tsx";
 
 // THB Imports
-import HomePageTHB from "./imports/HomePageTHB";
-import PricingTHB from "./imports/PricingTHB";
-import OurTechTHB from "./imports/OurTechTHB";
+import HomePageTHB from "./imports/HomePageTHB.tsx";
+import PricingTHB from "./imports/PricingTHB.tsx";
+import OurTechTHB from "./imports/OurTechTHB.tsx";
 // DemoTHB was not provided, assuming shared or same as AED for now, or fallback to default
-import DemoTHB from "./imports/Demo";
-import OurStoryTHB from "./imports/OurStoryTHB";
-import ContactTHB from "./imports/ContactTHB";
+import DemoTHB from "./imports/Demo.tsx";
+import OurStoryTHB from "./imports/OurStoryTHB.tsx";
+import ContactTHB from "./imports/ContactTHB.tsx";
 // PrivacyTHB not provided, using default
-import PrivacyTHB from "./imports/Privacy";
+import PrivacyTHB from "./imports/Privacy.tsx";
 
 const DESIGN_WIDTH = 490;
 
