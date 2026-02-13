@@ -1,0 +1,4 @@
+src/imports/HomePage.tsx(751,7): error TS17015: Expected corresponding closing tag for JSX fragment.
+src/imports/HomePage.tsx(752,5): error TS1109: Expression expected.
+src/imports/HomePage.tsx(752,7): error TS1109: Expression expected.
+src/imports/HomePage.tsx(753,3): error TS1109: Expression expected.
